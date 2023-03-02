@@ -1,8 +1,7 @@
 {
-  "name": "@example/basics",
+  "name": "astro-2ndefined",
   "type": "module",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,8 +10,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vue": "^1.2.1",
-    "astro": "^1.6.0",
-    "vue": "^3.2.30"
+    "@astrojs/react": "^2.0.2",
+    "@astrojs/vue": "^2.0.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^2.0.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vue": "^3.2.30",
+    "vuetify": "^3.1.7"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.1.96"
   }
 }
